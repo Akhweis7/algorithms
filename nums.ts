@@ -4,10 +4,7 @@ function checker(input: number): boolean {
 
 
 // console.log(changed)
-    //handle datatype
-    //use while looop instead of ifs
-    //add 00 || +
-    //i is counter
+
     let i = 0;
     //rules is boolean array
     const rules = [
