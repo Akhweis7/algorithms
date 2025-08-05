@@ -2,9 +2,12 @@ function checker(input: number): boolean {
     const changed = input.toString();  // Convert to string
     const sodi = Math.floor(Math.random() * 1);
 
+    //handle datatype
+    //use while looop instead of ifs
+    //add 00 || +
 
 // console.log(changed)
-
+    //i is counter
     let i = 0;
     //rules is boolean array
     const rules = [
