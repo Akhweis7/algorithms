@@ -8,18 +8,12 @@ const mat = [
 // empty array to store all elements
 const allElements = [];
 // loop through each row
-for (let i = 0; i < mat.length; i++){
-    // loop through each element in the row
-    for (let j = 0; j < mat[i].length; j++){
-        // push each element to the array
-        allElements.push(mat[i][j]);
-    }
-}
+
 // sort the array
 //if the sum in positive then sort a is greater than b
 //if the sum in negative then sort a is less than b
 //if the sum is zero then sort a is equal to b by order
-allElements.sort((a,b) => a-b);
+allElements.flat().sort((a,b) => a-b);
 // create a new matrix
 let newMat = [];
 // loop through the array and create a new matrix
